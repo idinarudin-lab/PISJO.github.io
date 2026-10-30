@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <title>Tentang JO</title> </head>
+
+<body>
+
+<div class="tentang-jo">
+
+    <h1>🍌 TENTANG JO 🍌</h1>
+
+    <img 
+        src="logo jo.jpg" 
+        alt="Logo JO" 
+        width="250"
+    >
+
+    <h2>JO bukan sekadar pisang dan ijo!</h2>
+
+    <p>
+        Jo adalah makanan ringan yang dingin, segar, dan enak.
+        Jo tidak hanya pisang dan ijo, tetapi lebih dari itu.
+        JO hadir untuk memberikan pengalaman menikmati makanan
+        yang menyenangkan bagi semua orang.
+    </p>
+
+    <div class="keunggulan">
+
+        <div>
+            <h3>🍌 Lezat</h3>
+            <p>
+                Rasa yang nikmat dan cocok untuk menemani
+                waktu santai kamu.
+            </p>
+        </div>
+
+        <div>
+            <h3>❄️ Segar</h3>
+            <p>
+                Disajikan dingin sehingga cocok dinikmati
+                kapan saja.
+            </p>
+        </div>
+
+        <div>
+            <h3>💚 JO</h3>
+            <p>
+                Bukan hanya makanan, JO adalah pengalaman
+                yang menyenangkan.
+            </p>
+        </div>
+
+    </div>
+
+    <h2>✨ Kenapa Harus JO?</h2>
+
+    <p>
+        Karena JO bukan hanya tentang makanan.
+        JO adalah tentang rasa, kesegaran, dan keseruan
+        yang bisa dinikmati bersama.
+    </p>
+
+</div>
+
+</body>
+
+</html>

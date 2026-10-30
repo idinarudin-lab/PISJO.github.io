@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>Beli JO</title>
+<h1>JO ingin membeli </h1>
+<p><font face="Broadway Regular" size="5"> JO... Silahkan pilih menu yang JO suka!</font>
+</p>
+</body>
+</html>
