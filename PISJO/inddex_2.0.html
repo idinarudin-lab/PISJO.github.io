@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Trafic JO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Saya menambahkan Google Fonts sebagai cadangan karena font aslimu bukan web-safe font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style>
+        /* Gambar latar JO disertakan langsung agar cukup mengunggah index.html. */
+        body {
+            min-height: 100vh;
+            background-color: #d5f5a3;
+            background-image: url("data:image/jpeg;base64,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");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        main { background-color: rgba(255, 255, 255, 0.95); }
+
+        .info-pembelajaran {
+            margin-bottom: 28px;
+            padding: 20px;
+            border-left: 5px solid #008552;
+            border-radius: 8px;
+            background: #eef8f1;
+            color: #243d2e;
+            font-family: Arial, sans-serif;
+            line-height: 1.65;
+            overflow-wrap: anywhere;
+        }
+        .info-pembelajaran h2 { margin: 0 0 10px; text-align: left; color: #195637; font-size: 1.35rem; }
+        .info-pembelajaran p + p { margin-top: 10px; }
+        .watermark-belajar {
+            position: fixed;
+            right: 0.75rem;
+            bottom: max(0.75rem, env(safe-area-inset-bottom));
+            z-index: 9999;
+            max-width: calc(100% - 1.5rem);
+            padding: 0.35rem 0.65rem;
+            border-radius: 0.4rem;
+            background: rgba(24, 24, 24, 0.88);
+            color: white;
+            font: 12px/1.4 sans-serif;
+            pointer-events: none;
+        }
+        footer { padding-bottom: 70px; }
+    </style>
+</head>
+<body>
+
+    <!-- =========================
+         SPLASH SCREEN (LOGO AWAL)
+         ========================= -->
+    <div class="splash-screen" aria-hidden="true">
+        <div class="splash-logo" aria-hidden="true">JO</div>
+    </div>
+
+    <!-- =========================
+         HEADER
+         ========================= -->
+    <header>
+        <h1>Selamat Datang</h1>
+        <p>Platform Informasi Terkini</p>
+    </header>
+
+    <!-- =========================
+         TEKS BERGERAK (TRAFFIC JO)
+         ========================= -->
+    <div class="traffic-jo">
+        <div class="traffic-jo-track">
+            <span>Trafic JO</span>
+            <span>Trafic JO</span>
+            <span>Trafic JO</span>
+            <span>Trafic JO</span>
+        </div>
+    </div>
+
+    <!-- =========================
+         MENU NAVIGASI
+         ========================= -->
+    <nav aria-label="Navigasi utama">
+        <a href="tentang-jo.html">Tentang Jo</a>
+        <a href="info-jo.html">Info JO</a>
+        <a href="beli-jo.html">Beli JO</a>
+        <a href="promo-jo.html">Promo JO</a>
+    </nav>
+
+    <!-- =========================
+         AREA KONTEN
+         ========================= -->
+    <main>
+        <section class="info-pembelajaran" aria-labelledby="judul-pembelajaran">
+            <h2 id="judul-pembelajaran">Tentang Website Pembelajaran Ini</h2>
+            <p>Website JO dibuat sebagai sarana pembelajaran dan latihan pengembangan website, mulai dari menyusun halaman HTML, mengatur tampilan dengan CSS, hingga memublikasikan website melalui GitHub Pages.</p>
+            <p>Informasi produk, menu pembelian, dan promo digunakan sebagai contoh dalam proses belajar. Website ini merupakan proyek latihan; formulir pemesanan dan jawaban promo masih berupa demo dan belum mengirimkan data atau memproses transaksi.</p>
+        </section>
+        <h2>Mengenal JO</h2>
+        <section class="intro-jo" aria-label="Tentang JO"><img src="logo-jo.jpg" alt="Logo JO" width="250"><p>JO adalah makanan ringan yang dingin, segar, dan enak. JO hadir untuk memberikan pengalaman menikmati makanan yang menyenangkan bagi semua orang.</p><a href="tentang-jo.html">Kenali JO lebih dekat</a></section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+    <footer>
+        <p>&copy; 2026 Trafic JO. All rights reserved.</p>
+    </footer>
+
+    <small class="watermark-belajar">Situs ini untuk pembelajaran</small>
+</body>
+</html>
+
+
